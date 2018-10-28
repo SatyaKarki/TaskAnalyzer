@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\css\fonts\css\font-awesome.css" />
+    <Content Include="wwwroot\css\fonts\css\font-awesome.min.css" />
+    <Content Include="wwwroot\css\fonts\fonts\fontawesome-webfont.eot" />
+    <Content Include="wwwroot\css\fonts\fonts\fontawesome-webfont.svg" />
+    <Content Include="wwwroot\css\fonts\fonts\fontawesome-webfont.ttf" />
+    <Content Include="wwwroot\css\fonts\fonts\fontawesome-webfont.woff" />
+    <Content Include="wwwroot\css\fonts\fonts\FontAwesome.otf" />
+    <Content Include="wwwroot\css\fonts\less\bordered-pulled.less" />
+    <Content Include="wwwroot\css\fonts\less\core.less" />
+    <Content Include="wwwroot\css\fonts\less\fixed-width.less" />
+    <Content Include="wwwroot\css\fonts\less\font-awesome.css" />
+    <Content Include="wwwroot\css\fonts\less\font-awesome.less" />
+    <Content Include="wwwroot\css\fonts\less\icons.less" />
+    <Content Include="wwwroot\css\fonts\less\larger.less" />
+    <Content Include="wwwroot\css\fonts\less\list.less" />
+    <Content Include="wwwroot\css\fonts\less\mixins.css" />
+    <Content Include="wwwroot\css\fonts\less\mixins.less" />
+    <Content Include="wwwroot\css\fonts\less\path.less" />
+    <Content Include="wwwroot\css\fonts\less\rotated-flipped.less" />
+    <Content Include="wwwroot\css\fonts\less\spinning.less" />
+    <Content Include="wwwroot\css\fonts\less\stacked.less" />
+    <Content Include="wwwroot\css\fonts\less\variables.css" />
+    <Content Include="wwwroot\css\fonts\less\variables.less" />
+    <Content Include="wwwroot\css\fonts\scss\font-awesome.scss" />
+    <Content Include="wwwroot\css\fonts\scss\_bordered-pulled.scss" />
+    <Content Include="wwwroot\css\fonts\scss\_core.scss" />
+    <Content Include="wwwroot\css\fonts\scss\_fixed-width.scss" />
+    <Content Include="wwwroot\css\fonts\scss\_icons.scss" />
+    <Content Include="wwwroot\css\fonts\scss\_larger.scss" />
+    <Content Include="wwwroot\css\fonts\scss\_list.scss" />
+    <Content Include="wwwroot\css\fonts\scss\_mixins.scss" />
+    <Content Include="wwwroot\css\fonts\scss\_path.scss" />
+    <Content Include="wwwroot\css\fonts\scss\_rotated-flipped.scss" />
+    <Content Include="wwwroot\css\fonts\scss\_spinning.scss" />
+    <Content Include="wwwroot\css\fonts\scss\_stacked.scss" />
+    <Content Include="wwwroot\css\fonts\scss\_variables.scss" />
+    <Content Include="wwwroot\css\materialize.min.css" />
+    <Content Include="wwwroot\js\materialize.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TaskAnalyzer.IRepository\TaskAnalyzer.IRepository.csproj" />
+    <ProjectReference Include="..\TaskAnalyzer.Model\TaskAnalyzer.Model.csproj" />
+    <ProjectReference Include="..\TaskAnalyzer.Repository\TaskAnalyzer.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
